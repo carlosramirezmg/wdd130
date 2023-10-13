@@ -101,3 +101,7 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }
+
+#Logo_Link img {
+    width: 80px;
+}
