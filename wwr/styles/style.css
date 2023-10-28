@@ -138,6 +138,7 @@ footer p a:hover {
 #Logo_Link img {
     width: 80px;
     padding-top: 5px;
+
 }
 
 h2 {
@@ -227,6 +228,10 @@ nav {
 .home-grid {
     display: grid;
     grid-template-columns:repeat(10, 1fr);
+}
+
+header h1 {
+    display: none;
 }
 
 @media screen and (max-width: 900px) {
