@@ -20,12 +20,34 @@
                 <a href="./contactme.html">Contact Me</a>
             </nav>
         </header>
-        <main>
-            <section>
-                <h2>Contact Me</h2>
-                <p>Being online is not just about existence; it's about empowerment in the digital age. A website is the modern business card, a gateway to the vast opportunities offered by the online world. To truly harness the potential of this digital landscape, the expertise of a qualified web developer is indispensable. They bring not just technical skills but a holistic approach to creating a digital presence that resonates with your audience, communicates your brand essence, and propels you into the forefront of the digital revolution. In a world where the internet is the new marketplace, your website, guided by a skilled web developer, becomes the linchpin of your success. </p>
-            </section>
-        </main>
+        <div class="container">
+            <div style="text-align:center">
+              <h2>Contact Me</h2>
+              <p>Leave me a message:</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="./styles/rsc/rsz_pexels-danny-meneses-943096.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="Other">Other</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
         <footer>
             <p>Carlos M. Ramirez &copy; 2023</p>
             <a href="./site-plan.html">Sitemap</a>
