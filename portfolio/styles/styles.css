@@ -349,7 +349,7 @@ ul {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #264653;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -357,7 +357,7 @@ ul {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #2A9D8F;
   }
   
   /* Style the container/contact section */
