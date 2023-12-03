@@ -173,7 +173,7 @@ main section img {
 
 #recent-projects {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 50px;
 }
@@ -207,29 +207,15 @@ main section img {
     text-align: center;
     padding: 10px;
 }
-
-form {
-    /* Center the form on the page */
-    margin: 50px auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-    background-color: #84a98c;
-  }
   
-  ul {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
+
   
-  form li + li {
-    margin-top: 1em;
-  }
-  
-  label {
+label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
@@ -329,4 +315,28 @@ form {
 .call-to-action:hover {
     background-color: #F4A261;
     color: black;
+}
+
+.w3-row-padding {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 30px;
+  }
+
+.w3-third img:hover {
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+
+.w3-third img {
+    border: 5px solid #264653;
+}
+
+.w3-container.w3-white h3 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    vertical-align: middle;
+    border: none;
 }
