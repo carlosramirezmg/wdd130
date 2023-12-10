@@ -255,7 +255,7 @@ ul {
     margin-left: 0.5em;
   }
 
-  #presentation {
+#presentation {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -382,6 +382,155 @@ ul {
     clear: both;
   }
   
+#about-presentation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.about-presentation-img {
+    text-align: center;
+}
+
+.about-presentation-img {
+    width: 800px;
+    height: 600px;
+    transition: opacity 0.3s ease;
+}
+
+.about-presentation-img:hover {
+    opacity: 0.8;
+}
+
+.about-presentation-title {
+    margin-top: 10px;
+    font-size: 1.5em;
+    padding: 2px;
+}
+
+.about-presentation-summary {
+    color: black;
+    font-size: 0.9em;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+}
+
+.button-about-box {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.call-to-action-about {
+    background-color: #2A9D8F;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.call-to-action-about:hover {
+    background-color: #F4A261;
+    color: black;
+}
+
+.button-about-box2 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.call-to-action-about2 {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.call-to-action-about2:hover {
+    background-color: #F4A261;
+    color: black;
+}
+
+#skills-presentation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.skills-presentation-img {
+    text-align: center;
+}
+
+.skills-presentation-img {
+    width: 800px;
+    height: 600px;
+    transition: opacity 0.3s ease;
+}
+
+.skills-presentation-img:hover {
+    opacity: 0.8;
+}
+
+.skills-presentation-summary {
+    color: black;
+    font-size: 0.9em;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding: 10px;
+}
+
+.skills-presentation-img {
+    max-width: 100%;
+    height: 300px;
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
