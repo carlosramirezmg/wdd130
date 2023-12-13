@@ -30,6 +30,11 @@ nav a{
     padding: 35px;
 }
 
+nav a:hover {
+    background-color: #2A9D8F;
+    color: #264653;
+}
+
 #home-web {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
